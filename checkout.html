@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="renderCheckout()">
+
+<header>
+  <div class="logo">Mixtas</div>
+  <nav>
+    <a href="products.html">Back to Shop</a>
+  </nav>
+</header>
+
+<section style="padding:40px;">
+  <h2>Your Cart</h2>
+  <div id="checkout-items"></div>
+  <h3>Total: <span id="total">$0</span></h3>
+
+  <h2>Payment Details</h2>
+  <form id="payment-form">
+    <input type="text" placeholder="Cardholder Name" required>
+    <input type="text" placeholder="Card Number" required>
+    <input type="text" placeholder="MM/YY" required>
+    <input type="text" placeholder="CVC" required>
+    <button class="btn" type="submit">Pay Now</button>
+  </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="data.js"></script>
+<script src="cart.js"></script>
+<script>
+document.getElementById("payment-form").addEventListener("submit", function(e){
+  e.preventDefault();
+  Swal.fire("Payment Successful!", "Your order is on the way 🚚", "success");
+  localStorage.removeItem("cart");
+});
+</script>
+
+</body>
+</html>
