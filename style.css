@@ -26,12 +26,12 @@ nav a {
 .titleFirstPage {
   color: #000;
   font-size: 50px;
-
+  text-shadow: 2px 2px white;
 }
 
 .hero {
   height: 80vh;
-  background: url('../assets/hero.jpg') center/cover no-repeat;
+  background: url('Assets/Clothes\ image.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   padding-left: 60px;
