@@ -4,5 +4,6 @@ const products = [
   { id: 3, name: "Sport Sneakers", price: 140, category: "shoes", img: "../assets/p3.jpg" },
   { id: 4, name: "Basic T-Shirt", price: 40, category: "tshirts", img: "../assets/p4.jpg" },
   { id: 5, name: "Denim Shirt", price: 75, category: "shirts", img: "../assets/p5.jpg" },
-  { id: 6, name: "Premium Jacket", price: 180, category: "jackets", img: "../assets/p6.jpg" }
+  { id: 6, name: "Premium Jacket", price: 180, category: "jackets", img: "../assets/p6.jpg" },
+  { id: 7, name: "Premium Black Jacket", price: 200, category: "jackets", img: "../assets/Black-Jacket.jpg" }
 ];
