@@ -7,5 +7,6 @@ const products = [
   { id: 6, name: "Premium Jacket", price: 180, category: "jackets", img: "../assets/p6.jpg" },
   { id: 7, name: "Premium Black Jacket", price: 200, category: "jackets", img: "../assets/Black-Jacket.jpg" },
   { id: 8, name: "Sport Hoodie", price: 70, category: "hoodies", img: "../assets/skyblue-hoodie.jpg" },
-  { id: 9, name: "White Hoodie", price: 56, category: "hoodies", img: "../assets/white-hoodie.jpg" }
+  { id: 9, name: "White Hoodie", price: 56, category: "hoodies", img: "../assets/white-hoodie.jpg" },
+  { id: 10, name: "White Sneakers", price: 120, category: "shoes", img: "../assets/white-shoes.jpg" }
 ];
