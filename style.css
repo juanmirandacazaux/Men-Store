@@ -51,6 +51,11 @@ nav a {
 
 .productsTitle {
     text-align: center;
+    font-size: 44px;
+}
+
+.productsText {
+    text-align: center;
 }
 
 .shop-layout {
