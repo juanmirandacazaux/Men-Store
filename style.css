@@ -116,4 +116,22 @@ form input {
 @media (max-width: 900px) {
   .shop-layout { grid-template-columns: 1fr; }
   .products-grid { grid-template-columns: repeat(2, 1fr); }
+
+
+
+}
+
+
+@media (max-width: 768) {
+
+.hero {
+    height: 110vh !important;
+}
+
+.titleFirstPage {
+    color: white;
+    font-size: 90px;
+    text-shadow: 1px 1px 10px black;
+}
+  
 }
