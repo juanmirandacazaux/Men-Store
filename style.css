@@ -122,10 +122,10 @@ form input {
 }
 
 
-@media (max-width: 768) {
+@media (min-width: 768px) {
 
 .hero {
-    height: 110vh !important;
+    height: 110vh;
 }
 
 .titleFirstPage {
